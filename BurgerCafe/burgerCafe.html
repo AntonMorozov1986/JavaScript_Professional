@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Burger Cafe</title>
+    <link rel="stylesheet" href="css/burgerCafe.css">
+</head>
+<body>
+<div class="container">
+    <form action="#" class="burger">
+        <fieldset class="burger-size">
+            <legend>Размер бургера</legend>
+            <input type="radio" name="size" id="small-burger" value="small" data-price="50" data-calories="20" checked>
+            <label for="small-burger">Маленький бургер (цена: 50 руб., калорийность: 20 ккал)</label>
+            <input type="radio" name="size" id="big-burger" value="big" data-price="100" data-calories="40">
+            <label for="big-burger">Большой бургер (цена: 100 руб., калорийность: 40 ккал)</label>
+        </fieldset>
+        <fieldset class="burger-filling">
+            <legend>Начинка бургера</legend>
+            <input type="radio" name="filling" id="cheese-filling" value="cheese" data-price="10" data-calories="20"checked>
+            <label for="cheese-filling">Бургер с сыром (цена: 10 руб., калорийность: 20 ккал)</label>
+            <input type="radio" name="filling" id="salad-filling" value="salad" data-price="20" data-calories="5">
+            <label for="salad-filling">Бургер с салатом (цена: 20 руб., калорийность: 5 ккал)</label>
+            <input type="radio" name="filling" id="potato-filling" value="potato" data-price="15" data-calories="10">
+            <label for="potato-filling">Бургер с картошкой (цена: 15 руб., калорийность: 10 ккал)</label>
+        </fieldset>
+        <fieldset class="burger-topping">
+            <legend>Добавка к бургеру</legend>
+            <input type="checkbox" name="topping" id="seasoning" value="seasoning" data-price="15" data-calories="0">
+            <label for="seasoning">Добавить приправу (цена: 15 руб., калорийность: 0 ккал)</label>
+            <input type="checkbox" name="topping" id="mayonnaise" value="mayonnaise" data-price="20" data-calories="5">
+            <label for="mayonnaise">Добавить майонез (цена: 20 руб., калорийность: 5 ккал)</label>
+        </fieldset>
+        <p class="burger-description">Выберите ингридиенты и нажмите кнопку "заказать"</p>
+        <input type="button" value="Заказать">
+    </form>
+</div>
+<script src="js/BurgerProperty.js"></script>
+<script src="js/Burger.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
