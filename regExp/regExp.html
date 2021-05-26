@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>regExp</title>
+  <style>
+    body {
+        margin: auto;
+        width: 1200px;
+        background-color: #eeeeee;
+        font-family: sans-serif;
+    }
+
+    .element {
+        box-sizing: border-box;
+        display: block;
+        margin: 50px auto 0 auto;
+        padding: 10px;
+        width: 80%;
+    }
+
+    label {
+        text-align: center;
+    }
+
+    #textArea {
+        margin: 15px auto 0 auto;
+        height: 35vh;
+        font-size: 16px;
+        resize: none;
+    }
+
+    p {
+        position: relative;
+        border: 1px solid black;
+        background-color: #fff;
+        height: 35vh;
+        font-size: 16px;
+    }
+
+    p:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: -35px;
+        width: 100%;
+        margin: 10px auto 0 auto;
+        border-bottom: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+
+<label class="element" for="textArea">Введите текст для замены одинарных ковычек на двойные</label>
+<textarea class="element" name="text" id="textArea" ></textarea>
+<p class="element"></p>
+
+<script src="regExp.js"></script>
+</body>
+</html>
