@@ -1,0 +1,49 @@
+body {
+  margin: 0 auto;
+  width: 80vw;
+  background-color: #eeeeee;
+  font-family: Arial, sans-serif;
+}
+
+form {
+  margin: 20px auto;
+  width: 90%;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 0 0 5px 0;
+}
+
+input {
+  margin: 0 0 10px 0;
+  padding: 4px 4px;
+  border: 1px solid black;
+}
+
+textarea {
+  margin: 0 0 10px 0;
+  height: 200px;
+  resize: none;
+}
+
+.not-valid-input {
+  border: 1px solid red;
+}
+
+.err-message {
+  color: red;
+}
+
+#button:hover {
+  background-color: sandybrown;
+}
+#button:active {
+  background-color: #fff;
+}
+
+/*# sourceMappingURL=main.css.map */
